@@ -18,6 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
     - http://localhost:3000/api/graphql
 - [`next/font`](https://nextjs.org/docs/basic-features/font-optimization)
 
+## Manage Database
+- http://localhost:9180/?pgsql=pg&username=postgres&db=postgres&ns=public
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

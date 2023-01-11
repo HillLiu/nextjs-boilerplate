@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  pg:
+    image: postgres:alpine
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+
+  adminer:
+    image: adminer
+    ports:
+      - "9180:8080"
