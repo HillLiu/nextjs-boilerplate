@@ -10,3 +10,10 @@ services:
     image: adminer
     ports:
       - "9180:8080"
+
+  app:
+    build: ./docker
+    volumes:
+      - "./:/app"
+    ports:
+      - "3000:3000"

@@ -19,7 +19,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - [`next/font`](https://nextjs.org/docs/basic-features/font-optimization)
 
 ## Manage Database
-- http://localhost:9180/?pgsql=pg&username=postgres&db=postgres&ns=public
+- http://localhost:9180/?pgsql=pg&username=postgres&db=postgres
+
+### Prisma
+- Playground
+  - https://playground.prisma.io/examples/reading/find/find-all?host=playground.prisma.io&path=examples
 
 ## Learn More
 
